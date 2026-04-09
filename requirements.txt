@@ -1,0 +1,8 @@
+openai==1.82.0
+langchain==0.3.25
+langchain-openai==0.3.18
+pydantic==2.11.3
+langfuse==2.60.3
+python-dotenv==1.1.0
+hypothesis==6.131.15
+pytest==8.4.0
