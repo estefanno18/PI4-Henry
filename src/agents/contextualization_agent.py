@@ -38,8 +38,8 @@ HUMAN_TEMPLATE = (
 class ContextualizationAgent:
     """Agente LangChain para análisis estructural de documentos legales."""
 
-    def __init__(self, model: str = "gpt-4o", temperature: float = 0.0):
-        self.llm = ChatOpenAI(model=model, temperature=temperature)
+    def __init__(self, model: str = "gpt-5-nano"):
+        self.llm = ChatOpenAI(model=model)
         self.prompt = ChatPromptTemplate.from_messages([
             ("system", SYSTEM_PROMPT),
             ("human", HUMAN_TEMPLATE),
